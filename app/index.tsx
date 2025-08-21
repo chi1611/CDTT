@@ -10,6 +10,7 @@ import ChatScreen from './Screens/ChatScreen';
 import HomeTab from './Screens/HomeTabs/HomeTab';
 import ProductDetail from './Screens/ProductDetailScreen';
 import ProfileScreen from './Screens/ProfileScreen';
+i
 
 export type RootStackParamList = {
   Home: undefined;
@@ -22,8 +23,7 @@ export type RootStackParamList = {
       image: string;
       name: string;
       description: string;
-      price: number;
-    };};
+      price: number     };};
   Login: undefined;
   Register: undefined;
   ForgotPassword: undefined;
